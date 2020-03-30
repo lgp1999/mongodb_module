@@ -1,4 +1,4 @@
-var mongodb = require('./routes/mongodb_modules')
+var mongodb = require('./routes/mongodb_module')
 
 mongodb.config.url = 'mongodb://127.0.0.1:27017'                     //可以更改数据库地址
 
