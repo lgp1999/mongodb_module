@@ -6,7 +6,7 @@
 #### 1、引入。
 
 ```javascript
-var mongodb = require('./mongodb_modules')
+var mongodb = require('./mongodb_module.js')
 ```
 
 #### 2、配置。
