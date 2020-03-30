@@ -1,5 +1,5 @@
 # mongodb_module
-这是一个模块化的操作mongodb数据库的模板。
+这是一个模块化的操作mongodb数据库的模板，使用实例可见test.js文件。
 
 ## 使用方式
 
@@ -60,5 +60,5 @@ mongodb.run.insertOne('lgp', 'module', {"result": "success!"}, function (err, da
  - limit：查找方法中，对数据数量的限制，默认为：20
  - sort：查找方法中，查找数据后的排序方式，默认为：' '
  
-**目前支持的方法：insertOne、insertMany、removeOne、removeMany、update、find**
+**目前支持的方法：insertOne、insertMany、removeOne、removeMany、update、find。**
 **可根据自己的需要进行增加。**
